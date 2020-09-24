@@ -5,7 +5,7 @@
 }
 
 .root-container {
-
+width: 1200px;
 }
 
 /* regola clearfix per elementi float */
@@ -20,12 +20,14 @@
   margin: 0 auto;
 }
 
+
+/* proprietà colonne */
 .col {
   float: left;
-  /* position: relative; */
+  position: relative;
+  border: 1px solid black;
 }
 
-/* larghezza colonna di prova */
 .col-100 {
   width: 100%;
 }
@@ -39,7 +41,50 @@
   width: calc(100% * 1/3)
 }
 
+/* proprietà box elementi */
 
+.box {
+  border: 1px solid black;
+  float: left;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.f-right {
+  float: right;
+}
+
+.lh-20 {
+  line-height: 20px;
+  /* height: 50px; */
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.box li {
+  display: inline-block;
+  /* margin: 5px; */
+}
+
+.button-1 {
+  background-color: red;
+  font-size: 12px;
+}
+
+
+
+/* sfondi macrostruttura */
 .header-container-top {
   background-color: azure;
   border-bottom: 2px solid black;
