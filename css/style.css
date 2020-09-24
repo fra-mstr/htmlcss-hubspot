@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root-container {
+
+}
+
+/* regola clearfix per elementi float */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+  /* position: relative; */
+}
+
+/* larghezza colonna di prova */
+.col-100 {
+  width: 100%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-33 {
+  width: calc(100% * 1/3)
+}
+
+
+.header-container-top {
+  background-color: azure;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+.header-container-bottom {
+  background-color: white;
+  width: 100%;
+}
+.container-freetrial {
+  background-color: bisque;
+  width: 100;
+}
+.separator {
+  background-color: turquoise;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+
+
+/* classi prova per dimensionamento elementi */
+
+.h-50 {
+  height: 50px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.row:nth-child(1) {
+
+}
+
+.row:nth-child(2) {
+
+}
