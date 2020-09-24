@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.root-container {
-width: 1200px;
-}
+/* .root-container {
+/* width: 1200px; */
+
 
 /* regola clearfix per elementi float */
 .row::after {
@@ -30,6 +30,9 @@ width: 1200px;
 
 .col-100 {
   width: 100%;
+}
+.col-75 {
+  width: 75%;
 }
 .col-50 {
   width: 50%;
@@ -82,6 +85,7 @@ width: 1200px;
   font-size: 12px;
 }
 
+/*  */
 
 
 /* sfondi macrostruttura */
