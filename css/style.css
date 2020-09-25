@@ -25,7 +25,7 @@
 .col {
   float: left;
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .col-100 {
@@ -52,7 +52,7 @@
 /* proprietà box elementi */
 
 .box {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   float: left;
 }
 
@@ -93,6 +93,12 @@
 
 .centered-hor-5 {
   right: 10%;
+}
+
+.centered-button {
+  position: absolute;
+  top: 35%;
+  right: 22%;
 }
 
 .f-right {
@@ -199,6 +205,10 @@
 .padding-container {
   padding: 40px 0;
 }
+.padding-text-int {
+  padding: 50px;
+}
+
 .margin-top-1 {
   margin-top: 30px;
 }
